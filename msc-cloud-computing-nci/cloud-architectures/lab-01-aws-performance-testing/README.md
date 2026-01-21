@@ -21,9 +21,12 @@ An AWS EC2 instance running a Flask application, monitored using AWS CloudWatch.
 A Python Flask application was deployed on an EC2 instance and tested under concurrent load to observe latency, throughput, and CPU utilization.
 
 **Outputs**
-- Flask application response
-- Load testing script output
-- CloudWatch CPU utilization metrics
+- Flask application successfully running on AWS EC2  
+  ![Flask Application Running](screenshots/flask-app-running.png)
+- Load testing script execution and performance output  
+  ![Load Test Output](screenshots/load-test-output.png)
+- CPU utilization observed in AWS CloudWatch during the load test  
+  ![CloudWatch CPU Utilization](screenshots/cloudwatch-cpu-utilization.png)
 
 **Learning Outcomes**
 - Understanding cloud performance testing
