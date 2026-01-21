@@ -22,11 +22,11 @@ A Python Flask application was deployed on an EC2 instance and tested under conc
 
 **Outputs**
 - Flask application successfully running on AWS EC2  
-  ![Flask Application Running](screenshots/flask-app-running.png)
+  ![Flask Application Running](screenshots/flask-app-running.jpg)
 - Load testing script execution and performance output  
-  ![Load Test Output](screenshots/load-test-output.png)
+  ![Load Test Output](screenshots/load-test-output.jpg)
 - CPU utilization observed in AWS CloudWatch during the load test  
-  ![CloudWatch CPU Utilization](screenshots/cloudwatch-cpu-utilization.png)
+  ![CloudWatch CPU Utilization](screenshots/cloudwatch-cpu-utilization.jpg)
 
 **Learning Outcomes**
 - Understanding cloud performance testing
