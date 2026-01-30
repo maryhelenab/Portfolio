@@ -1,0 +1,60 @@
+Step 4 - Instalar Web Server (Nginx) on EC2
+
+sudo apt update
+sudo apt install nginx -y
+sudo systemctl start nginx
+sudo systemctl status nginx
+
+Step 5 - Configure Git on EC2
+sudo apt install git -y
+git config --global user.name "maryhelenab"
+git config --global user.email "maryhelen_ab@hotmail.com"
+
+Step 6: Connect GitHub to EC2 (SSH Key)
+ssh-keygen -t rsa -b 4096 -C "maryhelen_ab@hotmail.com"
+cat ~/.ssh/id_rsa.pub
+
+
+
+
+Mini Report – Lab 02: Deploy Static Website on EC2
+Project Overview
+
+This project demonstrates the deployment of a static website on an Amazon EC2 instance using the Nginx web server and GitHub for version control. The objective was to configure a cloud-based web server, connect it to GitHub using SSH authentication, and deploy a static HTML webpage.
+
+Methodology
+
+First, an Ubuntu EC2 instance was launched using the t2.micro instance type. The security group was configured to allow SSH (port 22) and HTTP (port 80) access.
+
+Next, the Nginx web server was installed and started on the EC2 instance. The default Nginx welcome page was verified by accessing the public IPv4 address through a web browser.
+
+Git was installed on the EC2 instance, and SSH keys were generated to securely connect the server to GitHub. The SSH public key was added to the GitHub account, and the connection was verified using SSH authentication.
+
+A structured project folder was created in the GitHub Portfolio repository, and a static HTML website was developed. The repository was cloned into the EC2 instance, and the website files were deployed to the /var/www/html directory. Finally, the website was successfully accessed via the EC2 public IP address.
+
+Results
+
+The static website was successfully deployed and accessible through the public IP address of the EC2 instance. GitHub was used to manage version control and synchronize the project files between the local machine and the cloud server.
+
+Technologies Used
+
+Amazon Web Services (EC2)
+
+Ubuntu 22.04
+
+Nginx Web Server
+
+Git and GitHub
+
+HTML5
+
+Conclusion
+
+This lab provided practical experience in cloud deployment, Linux server configuration, and version control integration. The project demonstrated the process of hosting a static website in the cloud using professional DevOps practices.
+
+✅ Versão SUPER CURTA (se professor pediu pequeno)
+
+Se quiser algo bem curto:
+
+Short Report:
+This lab involved deploying a static website on an AWS EC2 instance using Nginx. SSH was configured to connect GitHub with the EC2 server, and the project files were managed through a GitHub portfolio repository. The website was successfully deployed and accessed using the public IP address, demonstrating basic cloud deployment and version control practices.
