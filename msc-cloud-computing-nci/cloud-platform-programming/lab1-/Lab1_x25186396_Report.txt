@@ -1,0 +1,7 @@
+Lab Report – Amazon EC2
+
+In this lab, I launched an Amazon EC2 instance using Amazon Linux and the t2.micro instance type. I created a key pair and configured a security group allowing SSH access on port 22.
+
+I successfully connected to the instance using SSH via terminal with the .pem key and also connected using PuTTY after converting the key to .ppk format. The connection was verified by accessing the Linux terminal prompt.
+
+Finally, I terminated the EC2 instance to clean up AWS resources and avoid unnecessary costs.
