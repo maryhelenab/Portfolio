@@ -1,0 +1,5 @@
+# Ignorar chaves privadas (.pem)
+*.pem
+
+# Ignorar pasta de chaves do Lab 2
+lab-02-aws-performance-scaling/SRC_pem/
