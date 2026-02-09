@@ -24,32 +24,29 @@ A Python script was used to measure memory access latency for increasing data si
 Additionally, Sysbench was used to evaluate overall memory throughput and latency under a controlled workload.
 
 **Outputs**
-- Successful SSH connection to the EC2 instance  
-  ![SSH Connection](screenshots/01_SSH_Connection.png.jpg)
-
-- System update and package installation  
-  ![System Update](screenshots/02_System_Update.png.jpg)
+**Outputs**
 
 - Python cache latency test execution  
-  ![Cache Test Output](screenshots/cache_test.jpg)
+  ![Cache Test Output](screenshots/07_Cache_Test_Output.png.jpg)
 
 - Cache latency results for increasing memory sizes  
-  ![Cache Latency](screenshots/latencia.jpg)
+  ![Cache Latency](screenshots/07_Cache_Test_Output.png.jpg)
 
 - CPU cache hierarchy information  
-  ![Cache Information](screenshots/cacheandmemory.jpg)
+  ![Cache Information](screenshots/05_CPU_Cache_and_Memory_Info.png.jpg)
 
 - Python and Sysbench version verification  
-  ![Versions](screenshots/sysbench.jpg)
+  ![Versions](screenshots/04_Python_Sysbench_Version.png.jpg)
 
 - NumPy installation confirmation  
-  ![NumPy Installed](screenshots/NumPy.jpg)
+  ![NumPy Installed](screenshots/08_NumPy_Installation.png.jpg)
 
 - Cache test Python script  
-  ![Cache Test Script](screenshots/nano.jpg)
+  ![Cache Test Script](screenshots/06_Cache_Test_Code.png.jpg)
 
 - Memory throughput benchmark using Sysbench  
-  ![Sysbench Memory Test](screenshots/sysbench.jpg)
+  ![Sysbench Memory Test](screenshots/10_Sysbench_Memory_Test.png.jpg)
+
 
 **Learning Outcomes**
 - Understanding CPU cache hierarchy and behavior
