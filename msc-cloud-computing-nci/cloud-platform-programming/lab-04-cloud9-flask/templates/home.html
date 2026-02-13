@@ -1,0 +1,8 @@
+<h1> User list </h1>
+<ul>
+	{% for name in names %} <!--It goes through each item in the names list, one by one.-->
+	<li><a href="/user/{{name}}">{{name}}</a></li>
+	{% endfor %}
+</ul>
+
+<a href="/login">Go Login</a>
