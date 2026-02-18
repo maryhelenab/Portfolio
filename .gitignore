@@ -1,0 +1,11 @@
+# Ignorar chaves privadas (.pem)
+*.pem
+
+# Ignorar pasta de chaves do Lab 2
+lab-02-aws-performance-scaling/SRC_pem/
+
+# Ignorar pasta de chaves do Lab 4
+lab-04-aws-ec2-automation/lab4.pem
+
+# Ignorar arquivo
+lab-04-aws-ec2-automation/Untitled-2.txt
