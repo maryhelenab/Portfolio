@@ -1,0 +1,50 @@
+#Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+#Virtual Environments
+env/
+../env/
+venv/
+ENV/
+
+#Environment variables
+.env
+.env.*
+
+#db
+db.sqlite3
+
+#Django
+*.log
+staticfiles/
+media/
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+#Python packging
+build/
+dist/
+*.egg-info/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+#IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+#Temporary files
+*.tmp
+*.back
+*.cache

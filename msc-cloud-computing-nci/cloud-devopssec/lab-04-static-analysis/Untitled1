@@ -1,0 +1,42 @@
+#!/usr/bin/env python3
+"""Simple Caesar Cipher Program.""" # C0114: Missing module docstring (missing-module-docstring)
+
+import string
+
+def main():
+    """Run Caesar cipher program.""" 
+    #C0116: Missing function or method docstring (missing-function-docstring)
+    shift = 3
+#C0103: Constant name "letters" doesn't conform to UPPER_CASE naming style (invalid-name)
+    letters = string.ascii_letters + string.punctuation + string.digits
+#C0103: Constant name "letters" doesn't conform to UPPER_CASE naming style (invalid-name)
+    choice = input("would you like to encode or decode?")
+#C0103: Constant name "letters" doesn't conform to UPPER_CASE naming style (invalid-name)
+    word = input("Please enter text")
+#C0103: Constant name "letters" doesn't conform to UPPER_CASE naming style (invalid-name)
+    encoded = ""
+
+    if choice == "encode":
+        for letter in word:
+            if letter == " ":
+                encoded += " "
+            else:
+                new_index = letters.index(letter) + shift
+            #C0103: Constant name "x" doesn't conform to UPPER_CASE naming style (invalid-name)
+                encoded += letters[new_index]
+    elif choice == "decode":
+    #C0103: Constant name "x" doesn't conform to UPPER_CASE naming style (invalid-name)
+        for letter in word:
+            if letter == " ":
+                encoded += " "
+            else:
+                new_index = letters.index(letter) - shift
+                #C0103: Constant name "x" doesn't conform to UPPER_CASE naming style (invalid-name)
+                encoded += letters[new_index]
+                #C0103: Constant name "x" doesn't conform to UPPER_CASE naming style (invalid-name)
+    print(encoded)
+# C0304: Final newline missing (missing-final-newline)
+
+if __name__ == "__main__":
+    main()
+#Put all logic inside a function.
